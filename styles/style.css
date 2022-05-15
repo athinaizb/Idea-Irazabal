@@ -1,27 +1,26 @@
-
 body {
     background-color: rgb(202, 167, 209);
-    
+
 }
 
 #grilla {
     display: grid;
     grid-template-areas:
-        "header" 
+        "header"
         "titulo"
         "subtitulo"
         "presentacion"
         "consideraciones"
         "particularidades"
         "footer";
-        
-        grid-template-columns: 1fr;
-        /* grid-template-columns: 1fr;
+
+    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr;
         grid-template-rows: auto; */
 }
 
 .menu {
-    display:flex;
+    display: flex;
     justify-content: space-around;
 }
 
@@ -34,16 +33,18 @@ body {
     grid-area: subtitulo;
 }
 
-#consideraciones{
+#consideraciones {
     grid-area: consideraciones;
 }
-.contacto{
+
+.contacto {
     min-height: 90vh;
 }
 
 .div-carrito {
     min-height: 90vh;
 }
+
 #grid-header {
     grid-area: header;
     background-color: #e4e2e5;
@@ -68,7 +69,7 @@ a {
     display: grid;
     grid-template-columns: 50vw 30vw;
     justify-content: center;
-} 
+}
 
 .macarons {
     width: 50vw;
@@ -81,7 +82,8 @@ a {
         display: grid;
         grid-template-columns: 1fr;
         justify-content: center;
-    } 
+    }
+
     .macarons {
         width: 80vw;
     }
@@ -101,13 +103,14 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     color: #f7f4e7;
-    text-align: center;  
+    text-align: center;
     animation-name: animacion-titulo;
     animation-timing-function: ease-in;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-direction: alternate;
     position: relative;
 }
+
 #titulo {
     margin-bottom: 0;
 }
@@ -121,9 +124,14 @@ h2 {
 }
 
 @keyframes animacion-titulo {
-    0%   {top: -70px;}
-    25%  {top: 0px;}
-  }
+    0% {
+        top: -70px;
+    }
+
+    25% {
+        top: 0px;
+    }
+}
 
 .parrafo-inicio {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -146,7 +154,7 @@ h3 {
     padding-left: 30px;
 }
 
-#footer{
+#footer {
     grid-area: footer;
     display: flex;
     height: 45px;
@@ -162,29 +170,30 @@ h3 {
     align-items: center;
 }
 
-.div-nosotros{
+.div-nosotros {
     min-height: 90vh;
     display: grid;
     grid-template-areas:
-    "header header" 
-    "titulo titulo"
-    "parrafoNosotros imgNosotros"
-    "redesSociales redesSociales"
-    "footer footer";
+        "header header"
+        "titulo titulo"
+        "parrafoNosotros imgNosotros"
+        "redesSociales redesSociales"
+        "footer footer";
 
     grid-template-columns: 1fr 1fr;
 }
+
 @media (max-width: 768px) {
-    .div-nosotros{
+    .div-nosotros {
         min-height: 90vh;
         display: grid;
         grid-template-areas:
-        "header" 
-        "titulo"
-        "parrafoNosotros"
-        "imgNosotros"
-        "redesSociales"
-        "footer";
+            "header"
+            "titulo"
+            "parrafoNosotros"
+            "imgNosotros"
+            "redesSociales"
+            "footer";
         grid-template-columns: 1fr;
     }
 }
@@ -215,7 +224,7 @@ h3 {
     margin-top: 64px;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .tortas {
