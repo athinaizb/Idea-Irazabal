@@ -20,6 +20,16 @@ body {
         grid-template-rows: auto; */
 }
 
+.menu {
+    display:flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    align-self: center;
+    list-style-type: none;
+}
+
 #subtitulo {
     grid-area: subtitulo;
 }
@@ -36,8 +46,6 @@ body {
 }
 #grid-header {
     grid-area: header;
-    display: grid;
-    grid-template-columns: repeat(6, 16%);
     background-color: #e4e2e5;
     height: 130px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -160,9 +168,10 @@ h3 {
     grid-template-areas:
     "header header" 
     "titulo titulo"
-    "parrafoNosotros imgNosotros "
+    "parrafoNosotros imgNosotros"
     "redesSociales redesSociales"
     "footer footer";
+
     grid-template-columns: 1fr 1fr;
 }
 @media (max-width: 768px) {
