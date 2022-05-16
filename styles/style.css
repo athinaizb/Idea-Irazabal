@@ -4,7 +4,8 @@ body {
 }
 
 #grilla {
-    display: grid;
+    min-height: 95vh;
+    /* display: grid;
     grid-template-areas:
         "header"
         "titulo"
@@ -14,14 +15,13 @@ body {
         "particularidades"
         "footer";
 
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; */
     /* grid-template-columns: 1fr;
         grid-template-rows: auto; */
 }
 
 .menu {
-    display: flex;
-    justify-content: space-around;
+
 }
 
 .nav-item {
@@ -48,7 +48,6 @@ body {
 #grid-header {
     grid-area: header;
     background-color: #e4e2e5;
-    height: 130px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     justify-items: center;
@@ -56,7 +55,8 @@ body {
 }
 
 .imagen-logo {
-    width: 130px;
+    max-width: 130px;
+    width: 100%;
 }
 
 a {
@@ -64,12 +64,13 @@ a {
     text-decoration: none;
 }
 
-#presentacion {
+/* #presentacion {
     grid-area: presentacion;
     display: grid;
     grid-template-columns: 50vw 30vw;
     justify-content: center;
-}
+    margin-bottom: 20px;
+} */
 
 .macarons {
     width: 50vw;
@@ -91,9 +92,10 @@ a {
 
 
 #particularidades {
-    grid-area: particularidades;
+    /* grid-area: particularidades;
     display: grid;
-    grid-template-columns: repeat(3, 33%);
+    grid-template-columns: repeat(3, 33%); */
+    display: flex;
     justify-items: center;
     align-items: center;
 }
@@ -109,6 +111,8 @@ h1 {
     animation-duration: 3s;
     animation-direction: alternate;
     position: relative;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 #titulo {
@@ -121,6 +125,7 @@ h2 {
     color: #f7f4e7;
     text-align: center;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 @keyframes animacion-titulo {
@@ -152,6 +157,7 @@ h3 {
     font-size: 20px;
     color: #f7f4e7;
     padding-left: 30px;
+    margin-top: 10px;
 }
 
 #footer {
