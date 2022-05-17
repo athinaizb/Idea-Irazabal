@@ -2,29 +2,35 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Athina pastelería</title>
 </head>
 
-<body>
+<body class="container-fluid">
     <header>
         <section id="grid-header">
             <nav>
 
-                <ul class="menu">
-                    <li class="nav-item"><a href="../index.html"><img class="imagen-logo"
+                <ul class="menu row">
+                    <li class="nav-item col-sm-4 col-md-2"><a href="../index.html"><img class="imagen-logo"
                                 src="../imagenes/logo.jfif" /></a></li>
 
-                    <li class="nav-item"><a href="../index.html">INICIO</a></li>
+                    <li class="nav-item col-sm-4 col-md-2"><a href="../index.html">INICIO</a></li>
 
-                    <li class="nav-item"><a href="nosotros.html">NOSOTROS</a></li>
+                    <li class="nav-item col-sm-4 col-md-2"><a href="nosotros.html">NOSOTROS</a></li>
 
-                    <li class="nav-item"><a href="productos.html">PRODUCTOS</a></li>
+                    <li class="nav-item col-sm-4 col-md-2"><a href="productos.html">PRODUCTOS</a></li>
 
-                    <li class="nav-item"><a href="contacto.html">CONTACTO</a></li>
+                    <li class="nav-item col-sm-4 col-md-2"><a href="contacto.html">CONTACTO</a></li>
 
-                    <li class="nav-item"><a href="carrito.html">CARRITO DE COMPRAS</a>
+                    <li class="nav-item col-sm-4 col-md-2"><a href="carrito.html">CARRITO DE COMPRAS</a>
 
                     </li>
 
@@ -35,77 +41,101 @@
     </header>
 
     <h1>PRODUCTOS</h1>
+    <div class="container-tortas row">
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 columna-torta">
+            <div class="tortas">
+                <img class="imagen-tortas" src="../imagenes/torta1.jfif" />
+                <p class="info-tortas">Rogel</p>
+                <p class="info-tortas">$2000</p>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 columna-torta">
+            <div class="tortas">
+                <img class="imagen-tortas" src="../imagenes/torta2.jfif" />
+                <p class="info-tortas">Lime curd</p>
+                <p class="info-tortas">$2500</p>
+            </div>
+        </div>
 
-    <div class="tortas">
-        <img class="imagen-tortas" src="../imagenes/torta1.jfif" />
-        <p class="info-tortas">Rogel</p>
-        <p class="info-tortas">$2000</p>
-    </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 columna-torta">
+            <div class="tortas">
+                <img class="imagen-tortas" src="../imagenes/torta3.jfif" />
+                <p class="info-tortas">Torta espresso marquise y peras</p>
+                <p class="info-tortas">$2000</p>
+            </div>
+        </div>
 
-    <div class="tortas">
-        <img class="imagen-tortas" src="../imagenes/torta2.jfif" />
-        <p class="info-tortas">Lime curd</p>
-        <p class="info-tortas">$2500</p>
-    </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 columna-torta">
+            <div class="tortas">
+                <img class="imagen-tortas" src="../imagenes/torta4.jfif" />
+                <p class="info-tortas">Torta brownie</p>
+                <p class="info-tortas">$2200</p>
+            </div>
+        </div>
 
-    <div class="tortas">
-        <img class="imagen-tortas" src="../imagenes/torta3.jfif" />
-        <p class="info-tortas">Torta espresso marquise y peras</p>
-        <p class="info-tortas">$2000</p>
-    </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 columna-torta">
+            <div class="tortas">
+                <img class="imagen-tortas" src="../imagenes/torta5.jfif" />
+                <p class="info-tortas">Cheescake de chocolate</p>
+                <p class="info-tortas">$2300</p>
+            </div>
+        </div>
 
-    <div class="tortas">
-        <img class="imagen-tortas" src="../imagenes/torta4.jfif" />
-        <p class="info-tortas">Torta brownie</p>
-        <p class="info-tortas">$2200</p>
-    </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 columna-torta">
+            <div class="tortas">
+                <img class="imagen-tortas" src="../imagenes/torta6.jfif" />
+                <p class="info-tortas">Torta tiramisú</p>
+                <p class="info-tortas">$2200</p>
+            </div>
+        </div>
 
-    <div class="tortas">
-        <img class="imagen-tortas" src="../imagenes/torta5.jfif" />
-        <p class="info-tortas">Cheescake de chocolate</p>
-        <p class="info-tortas">$2300</p>
-    </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 columna-torta">
+            <div class="tortas">
+                <img class="imagen-tortas" src="../imagenes/torta8.jfif" />
+                <p class="info-tortas">New york banana split</p>
+                <p class="info-tortas">$2200</p>
+            </div>
+        </div>
 
-    <div class="tortas">
-        <img class="imagen-tortas" src="../imagenes/torta6.jfif" />
-        <p class="info-tortas">Torta tiramisú</p>
-        <p class="info-tortas">$2200</p>
-    </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 columna-torta">
+            <div class="tortas">
+                <img class="imagen-tortas" src="../imagenes/torta18.jfif" />
+                <p class="info-tortas">Pudding de limón con nuez y peras al borgoña</p>
+                <p class="info-tortas">$300 por unidad</p>
+            </div>
+        </div>
 
-    <div class="tortas">
-        <img class="imagen-tortas" src="../imagenes/torta8.jfif" />
-        <p class="info-tortas">New york banana split</p>
-        <p class="info-tortas">$2200</p>
-    </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 columna-torta">
+            <div class="tortas">
+                <img class="imagen-tortas" src="../imagenes/torta19.jfif" />
+                <p class="info-tortas">Coco mango cake</p>
+                <p class="info-tortas">$350 por unidad</p>
+            </div>
+        </div>
 
-    <div class="tortas">
-        <img class="imagen-tortas" src="../imagenes/torta18.jfif" />
-        <p class="info-tortas">Pudding de limón con nuez y peras al borgoña</p>
-        <p class="info-tortas">$300 por unidad</p>
-    </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 columna-torta">
+            <div class="tortas">
+                <img class="imagen-tortas" src="../imagenes/torta21.jfif" />
+                <p class="info-tortas">Crepe suzette</p>
+                <p class="info-tortas">$250 por unidad</p>
+            </div>
+        </div>
 
-    <div class="tortas">
-        <img class="imagen-tortas" src="../imagenes/torta19.jfif" />
-        <p class="info-tortas">Coco mango cake</p>
-        <p class="info-tortas">$350 por unidad</p>
-    </div>
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 columna-torta">
+            <div class="tortas">
+                <img class="imagen-tortas" src="../imagenes/torta22.jfif" />
+                <p class="info-tortas">Baklava</p>
+                <p class="info-tortas">$350 por unidad</p>
+            </div>
+        </div>
 
-    <div class="tortas">
-        <img class="imagen-tortas" src="../imagenes/torta21.jfif" />
-        <p class="info-tortas">Crepe suzette</p>
-        <p class="info-tortas">$250 por unidad</p>
-    </div>
-
-    <div class="tortas">
-        <img class="imagen-tortas" src="../imagenes/torta22.jfif" />
-        <p class="info-tortas">Baklava</p>
-        <p class="info-tortas">$350 por unidad</p>
-    </div>
-
-    <div class="tortas">
-        <img class="imagen-tortas" src="../imagenes/torta24.jfif">
-        <p class="info-tortas">Alfajor helado de pancakes</p>
-        <p class="info-tortas">$400 por unidad</p>
+        <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 columna-torta">
+            <div class="tortas">
+                <img class="imagen-tortas" src="../imagenes/torta24.jfif">
+                <p class="info-tortas">Alfajor helado de pancakes</p>
+                <p class="info-tortas">$400 por unidad</p>
+            </div>
+        </div>
     </div>
 
 </body>

@@ -4,24 +4,7 @@ body {
 }
 
 #grilla {
-    min-height: 95vh;
-    /* display: grid;
-    grid-template-areas:
-        "header"
-        "titulo"
-        "subtitulo"
-        "presentacion"
-        "consideraciones"
-        "particularidades"
-        "footer";
-
-    grid-template-columns: 1fr; */
-    /* grid-template-columns: 1fr;
-        grid-template-rows: auto; */
-}
-
-.menu {
-
+    /* min-height: 95vh; */
 }
 
 .nav-item {
@@ -89,13 +72,15 @@ a {
         width: 80vw;
     }
 }
+.us{
+    margin-top: 10vh;
+}
 
-
+#row-particularidades {
+    text-align: center;
+    margin-bottom: 48px;
+}
 #particularidades {
-    /* grid-area: particularidades;
-    display: grid;
-    grid-template-columns: repeat(3, 33%); */
-    display: flex;
     justify-items: center;
     align-items: center;
 }
@@ -178,32 +163,11 @@ h3 {
 
 .div-nosotros {
     min-height: 90vh;
-    display: grid;
-    grid-template-areas:
-        "header header"
-        "titulo titulo"
-        "parrafoNosotros imgNosotros"
-        "redesSociales redesSociales"
-        "footer footer";
-
-    grid-template-columns: 1fr 1fr;
 }
 
-@media (max-width: 768px) {
-    .div-nosotros {
-        min-height: 90vh;
-        display: grid;
-        grid-template-areas:
-            "header"
-            "titulo"
-            "parrafoNosotros"
-            "imgNosotros"
-            "redesSociales"
-            "footer";
-        grid-template-columns: 1fr;
-    }
+.container-fluid{
+    padding: 0;
 }
-
 .parrafo-nosotros {
     grid-area: parrafoNosotros;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -214,9 +178,7 @@ h3 {
 }
 
 .nosotros {
-    grid-area: imgNosotros;
-    width: 80%;
-    margin: 10px;
+
 }
 
 .icon-redes {
@@ -226,13 +188,15 @@ h3 {
 }
 
 .redes-sociales {
-    grid-area: redesSociales;
     margin-top: 64px;
     display: flex;
     justify-content: center;
 
 }
 
+.container-tortas{
+    margin-top: 5vh;
+}
 .tortas {
     background-color: #f9c7c3;
     border-width: 1px;
@@ -242,11 +206,17 @@ h3 {
     padding: 25px;
     margin-bottom: 12px;
     height: 450px;
+    display: inline-block;
+}
+.columna-torta{
+    text-align: center;
 }
 
 .imagen-tortas {
     width: 250px;
     padding: 20px;
+    display: block;
+    margin: auto;
 }
 
 .info-tortas {
@@ -260,17 +230,21 @@ h3 {
 .info-formulario {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(10, 10, 10);
-    background-color: #f9c7c3;
-    width: 360px;
-    margin-left: 40%;
+
+    
+    text-align: center;
 }
 
 fieldset {
+    padding: 10px;
     border-color: #f7f4e7;
+    display: inline-block;
+    width: 360px;
+    background-color: #f9c7c3;
 }
 
 .tabla-carrito {
-    width: 100%;
+    width: 500px
 }
 
 th {
@@ -281,11 +255,15 @@ th {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(10, 10, 10);
     background-color: #f9c7c3;
-    width: 500px;
-    margin-left: 37%;
     padding: 16px;
+    margin-top: 10px;
 }
 
 .boton-carrito {
     width: 100%;
+}
+.precio-final{
+    margin-top: 18px;
+    font-weight: bold;
+    
 }
