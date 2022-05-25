@@ -1,12 +1,1 @@
-.nav-item {
-    align-self: center;
-    list-style-type: none;
-}
-#grid-header {
-    grid-area: header;
-    background-color: #e4e2e5;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
-    justify-items: center;
-    align-items: center;
-}
+@import "header.scss";
