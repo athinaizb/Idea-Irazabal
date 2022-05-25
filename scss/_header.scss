@@ -1,24 +1,25 @@
 #grid-header {
     grid-area: header;
-    background-color: #e4e2e5;
+    background-color: $color-grey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     justify-items: center;
     align-items: center;
 
+   
     .imagen-logo {
         max-width: 130px;
         width: 100%;
     }
-
     .nav-item {
         align-self: center;
         list-style-type: none;
-
         a {
-            color: #C6A1CC;
+            color: $color-principal;
             text-decoration: none;
+            font-weight: bold;
         }
     }
-
+    
 }
+

@@ -1,5 +1,5 @@
 body {
-    background-color: #CAA7D1;
+    background-color: $color-principal;
 }
 @keyframes animacion-titulo {
     0% {
@@ -15,7 +15,7 @@ h1 {
     grid-area: titulo;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
-    color: #f7f4e7;
+    color: $color-white;
     text-align: center;
     animation-name: animacion-titulo;
     animation-timing-function: ease-in;
@@ -24,12 +24,15 @@ h1 {
     position: relative;
     font-weight: bold;
     margin-top: 20px;
+    &:hover{
+        color:$color-secundario;
+    }
 }
 
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-    color: #f7f4e7;
+    color: $color-white;
     text-align: center;
     margin-top: 10px;
     font-weight: bold;
@@ -38,16 +41,16 @@ h2 {
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    color: #f7f4e7;
+    color: $color-white;
     padding-left: 30px;
     margin-top: 10px;
 }
 fieldset {
     padding: 10px;
-    border-color: #f7f4e7;
+    border-color: $color-white;
     display: inline-block;
     width: 360px;
-    background-color: #f9c7c3;
+    background-color: $color-secundario;
 }
 th {
     text-align: left;

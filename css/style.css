@@ -12,8 +12,9 @@
     align-self: center;
     list-style-type: none; }
     #grid-header .nav-item a {
-      color: #C6A1CC;
-      text-decoration: none; }
+      color: #CAA7D1;
+      text-decoration: none;
+      font-weight: bold; }
 
 body {
   background-color: #CAA7D1; }
@@ -37,6 +38,8 @@ h1 {
   position: relative;
   font-weight: bold;
   margin-top: 20px; }
+  h1:hover {
+    color: #ebbdc6; }
 
 h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -58,7 +61,7 @@ fieldset {
   border-color: #f7f4e7;
   display: inline-block;
   width: 360px;
-  background-color: #f9c7c3; }
+  background-color: #ebbdc6; }
 
 th {
   text-align: left; }
