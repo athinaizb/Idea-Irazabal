@@ -2,6 +2,7 @@
     align-self: center;
     list-style-type: none;
 }
+
 #grid-header {
     grid-area: header;
     background-color: #e4e2e5;
@@ -9,4 +10,9 @@
     font-size: medium;
     justify-items: center;
     align-items: center;
+
+    a {
+        color: #C6A1CC;
+        text-decoration: none;
+    }
 }

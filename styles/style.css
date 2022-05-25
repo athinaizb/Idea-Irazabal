@@ -1,8 +1,3 @@
-body {
-    background-color: rgb(202, 167, 209);
-
-}
-
 #grilla {
     /* min-height: 95vh; */
 }
@@ -31,19 +26,6 @@ body {
     width: 100%;
 }
 
-a {
-    color: rgb(198 161 204);
-    text-decoration: none;
-}
-
-/* #presentacion {
-    grid-area: presentacion;
-    display: grid;
-    grid-template-columns: 50vw 30vw;
-    justify-content: center;
-    margin-bottom: 20px;
-} */
-
 .macarons {
     width: 50vw;
 }
@@ -61,7 +43,8 @@ a {
         width: 80vw;
     }
 }
-.us{
+
+.us {
     margin-top: 10vh;
 }
 
@@ -69,38 +52,19 @@ a {
     text-align: center;
     margin-bottom: 48px;
 }
+
 #particularidades {
     justify-items: center;
     align-items: center;
 }
 
-h1 {
-    grid-area: titulo;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
-    color: #f7f4e7;
-    text-align: center;
-    animation-name: animacion-titulo;
-    animation-timing-function: ease-in;
-    animation-duration: 3s;
-    animation-direction: alternate;
-    position: relative;
-    font-weight: bold;
-    margin-top: 20px;
-}
+
 
 #titulo {
     margin-bottom: 0;
 }
 
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    color: #f7f4e7;
-    text-align: center;
-    margin-top: 10px;
-    font-weight: bold;
-}
+
 
 @keyframes animacion-titulo {
     0% {
@@ -126,13 +90,6 @@ h2 {
     margin: auto;
 }
 
-h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: #f7f4e7;
-    padding-left: 30px;
-    margin-top: 10px;
-}
 
 #footer {
     grid-area: footer;
@@ -154,9 +111,10 @@ h3 {
     min-height: 90vh;
 }
 
-.container-fluid{
+.container-fluid {
     padding: 0;
 }
+
 .parrafo-nosotros {
     grid-area: parrafoNosotros;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -164,10 +122,6 @@ h3 {
     font-size: 15px;
     color: #f7f4e7;
     text-align: center;
-}
-
-.nosotros {
-
 }
 
 .icon-redes {
@@ -183,9 +137,10 @@ h3 {
 
 }
 
-.container-tortas{
+.container-tortas {
     margin-top: 5vh;
 }
+
 .tortas {
     background-color: #f9c7c3;
     border-width: 1px;
@@ -197,7 +152,8 @@ h3 {
     height: 450px;
     display: inline-block;
 }
-.columna-torta{
+
+.columna-torta {
     text-align: center;
 }
 
@@ -220,25 +176,14 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(10, 10, 10);
 
-    
-    text-align: center;
-}
 
-fieldset {
-    padding: 10px;
-    border-color: #f7f4e7;
-    display: inline-block;
-    width: 360px;
-    background-color: #f9c7c3;
+    text-align: center;
 }
 
 .tabla-carrito {
     width: 500px
 }
 
-th {
-    text-align: left;
-}
 
 .info-compra {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -251,8 +196,9 @@ th {
 .boton-carrito {
     width: 100%;
 }
-.precio-final{
+
+.precio-final {
     margin-top: 18px;
     font-weight: bold;
-    
+
 }

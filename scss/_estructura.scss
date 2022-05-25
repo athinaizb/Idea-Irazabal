@@ -1,0 +1,45 @@
+body {
+    background-color: #CAA7D1;
+}
+
+h1 {
+    grid-area: titulo;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: #f7f4e7;
+    text-align: center;
+    animation-name: animacion-titulo;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    position: relative;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #f7f4e7;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #f7f4e7;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+fieldset {
+    padding: 10px;
+    border-color: #f7f4e7;
+    display: inline-block;
+    width: 360px;
+    background-color: #f9c7c3;
+}
+th {
+    text-align: left;
+}
