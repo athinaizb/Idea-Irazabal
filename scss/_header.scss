@@ -1,8 +1,3 @@
-.nav-item {
-    align-self: center;
-    list-style-type: none;
-}
-
 #grid-header {
     grid-area: header;
     background-color: #e4e2e5;
@@ -11,8 +6,19 @@
     justify-items: center;
     align-items: center;
 
-    a {
-        color: #C6A1CC;
-        text-decoration: none;
+    .imagen-logo {
+        max-width: 130px;
+        width: 100%;
     }
+
+    .nav-item {
+        align-self: center;
+        list-style-type: none;
+
+        a {
+            color: #C6A1CC;
+            text-decoration: none;
+        }
+    }
+
 }

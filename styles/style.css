@@ -1,16 +1,3 @@
-#grilla {
-    /* min-height: 95vh; */
-}
-
-
-#subtitulo {
-    grid-area: subtitulo;
-}
-
-#consideraciones {
-    grid-area: consideraciones;
-}
-
 .contacto {
     min-height: 90vh;
 }
@@ -19,77 +6,9 @@
     min-height: 90vh;
 }
 
-
-
-.imagen-logo {
-    max-width: 130px;
-    width: 100%;
-}
-
-.macarons {
-    width: 50vw;
-}
-
-
-@media (max-width: 768px) {
-    #presentacion {
-        grid-area: presentacion;
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
-    }
-
-    .macarons {
-        width: 80vw;
-    }
-}
-
 .us {
     margin-top: 10vh;
 }
-
-#row-particularidades {
-    text-align: center;
-    margin-bottom: 48px;
-}
-
-#particularidades {
-    justify-items: center;
-    align-items: center;
-}
-
-
-
-#titulo {
-    margin-bottom: 0;
-}
-
-
-
-@keyframes animacion-titulo {
-    0% {
-        top: -70px;
-    }
-
-    25% {
-        top: 0px;
-    }
-}
-
-.parrafo-inicio {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    color: #f7f4e7;
-}
-
-
-.iconos-inicio {
-    width: 50px;
-    height: 55px;
-    display: block;
-    margin: auto;
-}
-
 
 #footer {
     grid-area: footer;

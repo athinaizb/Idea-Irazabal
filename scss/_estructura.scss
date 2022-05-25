@@ -1,6 +1,15 @@
 body {
     background-color: #CAA7D1;
 }
+@keyframes animacion-titulo {
+    0% {
+        top: -70px;
+    }
+
+    25% {
+        top: 0px;
+    }
+}
 
 h1 {
     grid-area: titulo;

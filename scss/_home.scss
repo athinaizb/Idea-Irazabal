@@ -1,0 +1,38 @@
+#particularidades {
+    justify-items: center;
+    align-items: center;
+
+    #row-particularidades {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    .iconos-inicio {
+        width: 50px;
+        height: 55px;
+        display: block;
+        margin: auto;
+    }
+}
+#titulo {
+    margin-bottom: 0;
+}
+.macarons {
+    width: 50vw;
+}
+
+@media (max-width: 768px) {
+    #presentacion {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .macarons {
+        width: 80vw;
+    }
+}
+.parrafo-inicio {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #f7f4e7;
+}
