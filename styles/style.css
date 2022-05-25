@@ -7,10 +7,18 @@ body {
     /* min-height: 95vh; */
 }
 
-.nav-item {
+/* .nav-item {
     align-self: center;
     list-style-type: none;
 }
+#grid-header {
+    grid-area: header;
+    background-color: #e4e2e5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    justify-items: center;
+    align-items: center;
+} */
 
 #subtitulo {
     grid-area: subtitulo;
@@ -28,14 +36,7 @@ body {
     min-height: 90vh;
 }
 
-#grid-header {
-    grid-area: header;
-    background-color: #e4e2e5;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
-    justify-items: center;
-    align-items: center;
-}
+
 
 .imagen-logo {
     max-width: 130px;
