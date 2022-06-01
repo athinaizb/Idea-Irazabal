@@ -27,7 +27,6 @@ body {
 
 h1 {
   grid-area: titulo;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 50px;
   color: #f7f4e7;
   text-align: center;
@@ -42,7 +41,6 @@ h1 {
     color: #ebbdc6; }
 
 h2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   color: #f7f4e7;
   text-align: center;
@@ -50,7 +48,6 @@ h2 {
   font-weight: bold; }
 
 h3 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   color: #f7f4e7;
   padding-left: 30px;
@@ -92,7 +89,9 @@ th {
   .macarons {
     width: 80vw; } }
 
+.fuente, h1, h2, h3, .parrafo-inicio {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
 .parrafo-inicio {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   color: #f7f4e7; }

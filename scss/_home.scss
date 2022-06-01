@@ -7,8 +7,7 @@
         margin-bottom: 48px;
     }
     .iconos-inicio {
-        width: 50px;
-        height: 55px;
+        @include sizes(50px , 55px);
         display: block;
         margin: auto;
     }
@@ -31,8 +30,14 @@
         width: 80vw;
     }
 }
-.parrafo-inicio {
+
+.fuente {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.parrafo-inicio {
+    @extend .fuente;
     font-size: 15px;
     color: $color-white;
 }
