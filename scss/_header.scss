@@ -1,7 +1,6 @@
 #grid-header {
-    grid-area: header;
+    @extend .fuente;
     background-color: $color-grey;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     justify-items: center;
     align-items: center;

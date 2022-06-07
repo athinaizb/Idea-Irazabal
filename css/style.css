@@ -1,7 +1,5 @@
 #grid-header {
-  grid-area: header;
   background-color: #e4e2e5;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
   justify-items: center;
   align-items: center; }
@@ -105,7 +103,7 @@ th {
   .macarons {
     width: 80vw; } }
 
-.fuente, h1, h2, h3, #footer, .parrafo-inicio, .div-nosotros .us .parrafo-nosotros, .div-carrito .info-compra, .contacto .info-formulario, .container-tortas .columna-torta .tortas .info-tortas {
+.fuente, #grid-header, h1, h2, h3, #footer, .parrafo-inicio, .div-nosotros .us .parrafo-nosotros, .div-carrito .info-compra, .contacto .info-formulario, .container-tortas .columna-torta .tortas .info-tortas {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .parrafo-inicio {
