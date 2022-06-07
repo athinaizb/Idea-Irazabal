@@ -1,0 +1,27 @@
+.div-nosotros {
+    min-height: 90vh;
+
+    .us {
+        margin-top: 10vh;
+
+        .parrafo-nosotros {
+            @extend .fuente;
+            width: 100%;
+            font-size: 15px;
+            color: $color-white;
+            text-align: center;
+        }
+    }
+
+    .redes-sociales {
+        margin-top: 64px;
+        display: flex;
+        justify-content: center;
+
+        .icon-redes {
+            @include sizes(55px , 55px);
+            margin: 12px;
+         }
+
+    }
+}

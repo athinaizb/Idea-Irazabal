@@ -50,8 +50,12 @@ fieldset {
     border-color: $color-white;
     display: inline-block;
     width: 360px;
-    background-color: $color-secundario;
+    background-color: $color-terciario;
 }
 th {
     text-align: left;
+}
+
+.container-fluid {
+    padding: 0;
 }

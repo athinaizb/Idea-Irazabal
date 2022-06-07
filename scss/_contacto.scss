@@ -1,0 +1,8 @@
+.contacto {
+    min-height: 90vh;
+    .info-formulario {
+        @extend .fuente;
+        color: $color-black;
+        text-align: center;
+    }
+}

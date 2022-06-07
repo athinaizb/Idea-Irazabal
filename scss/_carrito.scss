@@ -1,0 +1,25 @@
+.div-carrito {
+    min-height: 90vh;
+
+    .info-compra {
+        @extend .fuente;
+        color: $color-black;
+        background-color: $color-terciario;
+        padding: 16px;
+        margin-top: 10px;
+
+        .boton-carrito {
+            width: 100%;
+        }
+
+        .precio-final {
+            margin-top: 18px;
+            font-weight: bold;
+
+        }
+
+        .tabla-carrito {
+            width: 500px
+        }
+    }
+}

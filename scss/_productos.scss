@@ -1,0 +1,36 @@
+.container-tortas {
+    margin-top: 5vh;
+    
+    .columna-torta {
+        text-align: center;
+        .tortas {
+            @include sizes(300px , 450px);
+            background-color: $color-terciario;
+            border-width: 1px;
+            border-style: solid;
+            border-color: $color-white;
+            padding: 25px;
+            margin-bottom: 12px;
+            display: inline-block;
+            .imagen-tortas {
+                width: 250px;
+                padding: 20px;
+                display: block;
+                margin: auto;
+            }
+            
+            .info-tortas {
+                @extend .fuente;
+                font-weight: bold;
+                font-size: 15px;
+                color: $color-black;
+                text-align: center;
+            }
+        }
+    }
+    
+   
+    
+    
+}
+
