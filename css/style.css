@@ -1,14 +1,13 @@
 #grid-header {
   background-color: #e4e2e5;
-  font-size: medium;
-  justify-items: center;
-  align-items: center; }
+  font-size: medium; }
   #grid-header .imagen-logo {
     max-width: 130px;
-    width: 100%; }
+    width: 80%; }
   #grid-header .nav-item {
     align-self: center;
-    list-style-type: none; }
+    list-style-type: none;
+    margin-left: 12px; }
     #grid-header .nav-item a {
       color: #CAA7D1;
       text-decoration: none;

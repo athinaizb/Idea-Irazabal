@@ -2,17 +2,16 @@
     @extend .fuente;
     background-color: $color-grey;
     font-size: medium;
-    justify-items: center;
-    align-items: center;
-
-   
+    // justify-items: center;
+    // align-items: center;
     .imagen-logo {
         max-width: 130px;
-        width: 100%;
+        width: 80%;
     }
     .nav-item {
         align-self: center;
         list-style-type: none;
+        margin-left: 12px;
         a {
             color: $color-principal;
             text-decoration: none;
