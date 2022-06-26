@@ -6,15 +6,18 @@
         text-align: center;
         margin-bottom: 48px;
     }
+
     .iconos-inicio {
-        @include sizes(50px , 55px);
+        @include sizes(50px, 55px);
         display: block;
         margin: auto;
     }
 }
+
 #titulo {
     margin-bottom: 0;
 }
+
 .macarons {
     width: 50vw;
 }
@@ -28,6 +31,14 @@
 
     .macarons {
         width: 80vw;
+        margin-left: 10vw;
+    }
+}
+
+@media (max-width: 990px) {
+    .macarons {
+        width: 80vw;
+        margin-left: 10vw;
     }
 }
 
@@ -38,6 +49,8 @@
 
 .parrafo-inicio {
     @extend .fuente;
-    font-size: 15px;
+    font-size: 17px;
+    padding-top: 9px;
     color: $color-white;
+    padding: 0 40px 0 40px;
 }

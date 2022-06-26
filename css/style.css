@@ -1,3 +1,5 @@
+/*Mixin para setear sizes*/
+/*Maps para el estilo del titulo*/
 #grid-header {
   background-color: #e4e2e5;
   font-size: medium; }
@@ -100,14 +102,22 @@ th {
     grid-template-columns: 1fr;
     justify-content: center; }
   .macarons {
-    width: 80vw; } }
+    width: 80vw;
+    margin-left: 10vw; } }
+
+@media (max-width: 990px) {
+  .macarons {
+    width: 80vw;
+    margin-left: 10vw; } }
 
 .fuente, #grid-header, h1, h2, h3, #footer, .parrafo-inicio, .div-nosotros .us .parrafo-nosotros, .div-carrito .info-compra, .contacto .info-formulario, .container-tortas .columna-torta .tortas .info-tortas {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .parrafo-inicio {
-  font-size: 15px;
-  color: #f7f4e7; }
+  font-size: 17px;
+  padding-top: 9px;
+  color: #f7f4e7;
+  padding: 0 40px 0 40px; }
 
 .div-nosotros {
   min-height: 90vh; }
