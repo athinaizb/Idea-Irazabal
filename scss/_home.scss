@@ -19,8 +19,16 @@
 }
 
 .macarons {
-    width: 50vw;
+    width: 45vw;
 }
+
+#presentacion {
+    margin-top: 40px;
+}
+
+.parrafo-p {
+    width: 85%;
+    }
 
 @media (max-width: 768px) {
     #presentacion {
@@ -33,18 +41,23 @@
         width: 80vw;
         margin-left: 10vw;
     }
+
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1200px) {
     .macarons {
         width: 80vw;
         margin-left: 10vw;
     }
+    .parrafo-p {
+        width: 100%;
+        }
 }
 
 .fuente {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 
 .parrafo-inicio {
@@ -53,4 +66,7 @@
     padding-top: 9px;
     color: $color-white;
     padding: 0 40px 0 40px;
+    font-weight: bold;
+    width: 150px;
+    
 }

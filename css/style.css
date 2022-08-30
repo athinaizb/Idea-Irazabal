@@ -94,7 +94,13 @@ th {
   margin-bottom: 0; }
 
 .macarons {
-  width: 50vw; }
+  width: 45vw; }
+
+#presentacion {
+  margin-top: 40px; }
+
+.parrafo-p {
+  width: 85%; }
 
 @media (max-width: 768px) {
   #presentacion {
@@ -105,10 +111,12 @@ th {
     width: 80vw;
     margin-left: 10vw; } }
 
-@media (max-width: 990px) {
+@media (max-width: 1200px) {
   .macarons {
     width: 80vw;
-    margin-left: 10vw; } }
+    margin-left: 10vw; }
+  .parrafo-p {
+    width: 100%; } }
 
 .fuente, #grid-header, h1, h2, h3, #footer, .parrafo-inicio, .div-nosotros .us .parrafo-nosotros, .div-carrito .info-compra, .contacto .info-formulario, .container-tortas .columna-torta .tortas .info-tortas {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
@@ -117,7 +125,9 @@ th {
   font-size: 17px;
   padding-top: 9px;
   color: #f7f4e7;
-  padding: 0 40px 0 40px; }
+  padding: 0 40px 0 40px;
+  font-weight: bold;
+  width: 150px; }
 
 .div-nosotros {
   min-height: 90vh; }
