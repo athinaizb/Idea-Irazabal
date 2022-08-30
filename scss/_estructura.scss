@@ -25,7 +25,7 @@ h1 {
     font-weight: map-get($estilo-titulo , fWeight );
     margin-top: 20px;
     &:hover{
-        color:$color-secundario;
+        color: $color-transicion;
     }
 }
 
@@ -50,7 +50,7 @@ fieldset {
     border-color: $color-white;
     display: inline-block;
     width: 360px;
-    background-color: $color-terciario;
+    background-color: $color-nuevo;
 }
 th {
     text-align: left;

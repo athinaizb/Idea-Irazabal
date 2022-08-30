@@ -4,8 +4,8 @@
     .columna-torta {
         text-align: center;
         .tortas {
-            @include sizes(300px , 450px);
-            background-color: $color-terciario;
+            @include sizes(300px , 410px);
+            background-color: $color-nuevo;
             border-width: 1px;
             border-style: solid;
             border-color: $color-white;
@@ -22,7 +22,7 @@
             .info-tortas {
                 @extend .fuente;
                 font-weight: bold;
-                font-size: 15px;
+                font-size: 12px;
                 color: $color-black;
                 text-align: center;
             }

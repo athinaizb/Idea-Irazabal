@@ -1,8 +1,16 @@
 .contacto {
     min-height: 90vh;
+
     .info-formulario {
         @extend .fuente;
         color: $color-black;
         text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        margin-top: 20px;
+
+        .campo {
+            margin-top: 8px;
+        }
     }
 }
