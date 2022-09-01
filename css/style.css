@@ -137,7 +137,8 @@ th {
       width: 100%;
       font-size: 15px;
       color: #f7f4e7;
-      text-align: center; }
+      text-align: center;
+      font-weight: bold; }
   .div-nosotros .redes-sociales {
     margin-top: 64px;
     display: flex;
